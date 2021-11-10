@@ -1,13 +1,10 @@
-HW2: NQueens Without Recursion
-Ryan Hueckel (1776448)
---------------------------------------------------------------
-FUNCTION:
+## FUNCTION:
   This program takes in an input containing the size of a nxn
   chess board along with an amount of preplaced queens and then
   attempts to place the remaining (n-inputted amount) queens in spots 
   where none of them can attack eachother.
---------------------------------------------------------------
-FILES:
+
+## FILES:
   nqueens.cpp
     -contains the main function, the BoardState class, does 
      input/output and has the code for solving the nxn queens problem.
@@ -17,8 +14,8 @@ FILES:
      can attack another queen of given coords.
   queen.h
     -declares the queen class
---------------------------------------------------------------
-USAGE:
+
+## USAGE:
   To compile the program simply type "make" into the terminal.
   The program uses files for input/output. Each line of the
   input file is a new test and should be formatted like below.
@@ -34,12 +31,9 @@ USAGE:
   is outputted. The command to run the program is below.
   
   ./nqueens <input file> <output file>
---------------------------------------------------------------
-CITATIONS:
+
+## CITATIONS:
   How to split the input into seperate ints using stringstream
   from here:
   https://stackoverflow.com/questions/3421817/splitting-int-from-a-string/29326185
-
-  Simulating a stack using recursion somewhat based on how Professor 
-  did it in his example "all subsequences" program.
    
